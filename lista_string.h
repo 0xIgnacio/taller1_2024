@@ -1,19 +1,26 @@
-#ifndef LISTA_STRING_H_INCLUDED
-#define LISTA_STRING_H_INCLUDED
+#ifndef LISTA_STRING_H
+#define LISTA_STRING_H
 
 #include "string.h"
 
-typedef struct nodoS {
+typedef struct _nodoS {
   string data;
-  nodoS * sig;
-};
+  _nodoS * sig;
+} nodoS;
 typedef nodoS * listaString;
 
+// Funciones base
 void crear(listaString &root);
 void destruir(listaString &root);
-void insertar(listaString &root);
-void buscar(listaString root, string data);
+void insertar(listaString &root, string data);
+nodoS * buscar(listaString root, string data);
 void largo(listaString root);
 void esVacia(listaString root);
 
-#endif // LISTA_STRING_H_INCLUDED
+// Requerimientos
+void crearComando(string comando, listaString &root);
+
+// Get atributos
+string getData(listaString root);
+
+#endif

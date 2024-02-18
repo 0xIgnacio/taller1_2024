@@ -1,6 +1,10 @@
 #include "expresion.h"
 #include "abb_expresion.h"
 
+void destruir(expresion &exp) {
+
+}
+
 void setIdentificador(expresion &exp, int num) {
 	exp.identificador = num;
 }

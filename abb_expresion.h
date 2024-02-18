@@ -3,11 +3,16 @@
 
 #include "info_nodo.h"
 
-typedef struct nodoA {
+typedef struct _nodoA {
   datosABB data;
-  nodoA * i;
-  nodoA * d;
-};
+  _nodoA * i;
+  _nodoA * d;
+} nodoA;
 typedef nodoA * abbExpresion;
+
+// Funciones base
+void crear(abbExpresion &abb);
+void destruir(abbExpresion &abb);
+void insertar(abbExpresion &abb, datosABB data);
 
 #endif

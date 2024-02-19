@@ -36,6 +36,16 @@ nodoS * buscar(listaString root, string data) {
 	else return nullptr;
 }
 
+int largo(listaString root) {
+	if (root != nullptr)
+		return largo(root->sig) + 1;
+	else return 0;
+}
+
+bool esVacia(listaString root) {
+	return root == nullptr;
+}
+
 void crearComando(string comando, listaString &root) {
 	string palabra;
   int i = 0;

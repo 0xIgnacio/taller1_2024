@@ -15,7 +15,7 @@ typedef struct {
 } datosABB;
 
 // Set atributos
-void setDiscriminante(datosABB &data, tipo disc);
+void setDiscriminante(datosABB *data, tipo disc);
 void setNumero(datosABB &data, int num);
 
 // Get atributos

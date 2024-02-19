@@ -9,6 +9,9 @@ typedef struct  _nodoE {
 } nodoE;
 typedef nodoE * listaExpresiones;
 
+// Auxiliares
+void insertarAux(listaExpresiones root, expresion data);
+
 // Funciones base
 void crear(listaExpresiones &root);
 void destruir(listaExpresiones &root);

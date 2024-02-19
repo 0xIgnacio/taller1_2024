@@ -14,8 +14,8 @@ void crear(listaString &root);
 void destruir(listaString &root);
 void insertar(listaString &root, string data);
 nodoS * buscar(listaString root, string data);
-void largo(listaString root);
-void esVacia(listaString root);
+int largo(listaString root);
+bool esVacia(listaString root);
 
 // Requerimientos
 void crearComando(string comando, listaString &root);

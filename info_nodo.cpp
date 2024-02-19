@@ -1,5 +1,10 @@
 #include "info_nodo.h"
 
+// Set atributos
+void setDiscriminante(datosABB *data, tipo disc) {
+	data->disc = disc;
+}
+
 void setNumero(datosABB &data, int num) {
 	data.numero = num;
 }

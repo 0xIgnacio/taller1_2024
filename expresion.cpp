@@ -1,6 +1,11 @@
 #include "expresion.h"
 #include "abb_expresion.h"
 
+void crear(expresion &exp, int identificador, abbExpresion abb) {
+	exp.identificador = identificador;
+	exp.arbol = abb;
+}
+
 void destruir(expresion &exp) {
 
 }

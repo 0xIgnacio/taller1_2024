@@ -9,6 +9,7 @@ typedef struct {
 } expresion;
 
 // Funciones base
+void crear(expresion &exp, int identificador, abbExpresion abb);
 void destruir(expresion &exp);
 
 // Set atributos

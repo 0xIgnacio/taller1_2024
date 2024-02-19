@@ -3,21 +3,16 @@
 
 #include "abb_expresion.h"
 
-typedef struct {
-  int identificador;
-  abbExpresion arbol;
-} expresion;
+typedef struct expresion {
+  int numero;
+  abb arbol;
+};
+
+// Getter
+abb * getArbol(expresion &exp);
 
 // Funciones base
-void crear(expresion &exp, int identificador, abbExpresion abb);
-void destruir(expresion &exp);
-
-// Set atributos
-void setIdentificador(expresion &exp, int num);
-void setArbol(expresion &exp, abbExpresion abb);
-
-// Get atributos
-int getIdentificador(expresion exp);
-abbExpresion getArbol(expresion exp);
+void cargar(abb arbol, int numero);
+void mostrar();
 
 #endif

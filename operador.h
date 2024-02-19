@@ -1,10 +1,15 @@
 #ifndef OPERADOR_H
 #define OPERADOR_H
 
-typedef enum {NOT, AND, OR} operador;
+typedef enum {AND, OR, NOT} operador;
 
-bool esNot(operador data);
+// Funciones verificadoras
 bool esAnd(operador data);
 bool esOr(operador data);
+bool esNot(operador data);
+
+// Funciones base
+void cargar(operador &data);
+void mostrar(const operador data);
 
 #endif

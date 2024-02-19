@@ -3,27 +3,16 @@
 
 #include "expresion.h"
 
-typedef struct  _nodoE {
-  expresion data;
+typedef struct _nodoE {
+  expresion info;
   _nodoE * sig;
-} nodoE;
-typedef nodoE * listaExpresiones;
-
-// Auxiliares
-void insertarAux(listaExpresiones root, expresion data);
+};
+typedef _nodoE * lista_expresion;
 
 // Funciones base
-void crear(listaExpresiones &root);
-void destruir(listaExpresiones &root);
-void insertar(listaExpresiones &root, expresion data);
-nodoE * buscar(listaExpresiones root, expresion data);
-void largo(listaExpresiones root);
-void esVacia(listaExpresiones root);
-
-// Set atributos
-void setData(nodoE* root, expresion data);
-
-// Get atributos
-expresion getData(nodoE* root);
+void crear(lista_expresion &listaExp);
+void insertar(lista_expresion &listaExp, expresion data);
+void mostrar(lista_expresion listaExp);
+expresion * buscar(lista_expresion listaExp, int numero);
 
 #endif

@@ -19,6 +19,9 @@ void setNumero(datos &data, int numero); // Función para automatizar el número
 
 // Getter
 tipo_dato getTipo(datos data);
+bool getValor(datos data);
+char getParentesis(datos data);
+operador getOperador(datos data);
 
 // Funciones base
 void cargar(datos &data, string dato);

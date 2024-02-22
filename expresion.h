@@ -9,10 +9,13 @@ typedef struct expresion {
 };
 
 // Getter
-abb * getArbol(expresion &exp);
+abb getArbol(expresion exp);
 
 // Funciones base
-void cargar(abb arbol, int numero);
-void mostrar();
+void cargar(expresion &exp, abb arbol, int numero);
+void mostrar(expresion exp);
+
+// Métodos
+bool evaluar(expresion exp);
 
 #endif

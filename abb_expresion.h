@@ -12,8 +12,14 @@ typedef _nodoA * abb;
 
 // Funciones base
 void crear(abb &arbol);
-void insertarAtomic();
-void insertarCompound();
-void mostrar();
+void insertar(abb &arbol, datos info);
+void mostrar(abb arbol);
+bool esVacio(abb arbol);
+bool hijoIzqVacio(abb arbol);
+bool hijoDerVacio(abb arbol);
+
+// GETTER
+datos getDatos(abb arbol);
+
 
 #endif

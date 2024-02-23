@@ -6,7 +6,7 @@
 typedef struct expresion {
   int numero;
   abb arbol;
-};
+} expresion;
 
 // Getter
 abb getArbol(expresion exp);

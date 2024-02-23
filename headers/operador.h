@@ -9,7 +9,7 @@ bool esOr(operador data);
 bool esNot(operador data);
 
 // Funciones base
-void cargar(operador &data);
-void mostrar(const operador data);
+void cargar(operador &data, operador op);
+void mostrar(operador data);
 
 #endif

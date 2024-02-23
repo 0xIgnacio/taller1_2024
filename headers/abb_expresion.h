@@ -7,12 +7,13 @@ typedef struct _nodoA {
   datos info;
   _nodoA * izq;
   _nodoA * der;
-};
-typedef _nodoA * abb;
+} nodoA;
+typedef nodoA * abb;
 
-// Funciones base
+// BASE
 void crear(abb &arbol);
-void insertar(abb &arbol, datos info);
+void insertar(abb &arbol, datos nuevo);
+void insertar(abb &arbol, abb izq, abb der, datos nuevo);
 void mostrar(abb arbol);
 bool esVacio(abb arbol);
 bool hijoIzqVacio(abb arbol);
@@ -21,5 +22,7 @@ bool hijoDerVacio(abb arbol);
 // GETTER
 datos getDatos(abb arbol);
 
+// METHODS
+bool evaluar(abb arbol);
 
 #endif

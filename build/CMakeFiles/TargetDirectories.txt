@@ -1,0 +1,3 @@
+/Users/ignacioperciante/Developer/c-cpp/taller1_main/build/CMakeFiles/Taller1.dir
+/Users/ignacioperciante/Developer/c-cpp/taller1_main/build/CMakeFiles/edit_cache.dir
+/Users/ignacioperciante/Developer/c-cpp/taller1_main/build/CMakeFiles/rebuild_cache.dir

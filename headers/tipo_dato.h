@@ -1,7 +1,7 @@
 #ifndef TIPO_DATO_H
 #define TIPO_DATO_H
 
-typedef enum {parentesis, valor, operador} tipo_dato;
+typedef enum {par, va, op} tipo_dato;
 
 // Funciones verificadoras
 bool esParentesis(tipo_dato data);

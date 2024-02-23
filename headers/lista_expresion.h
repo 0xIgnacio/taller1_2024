@@ -6,8 +6,8 @@
 typedef struct _nodoE {
   expresion info;
   _nodoE * sig;
-};
-typedef _nodoE * lista_expresion;
+} nodoE;
+typedef nodoE * lista_expresion;
 
 // Funciones base
 void crear(lista_expresion &listaExp);

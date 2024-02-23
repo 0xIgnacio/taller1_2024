@@ -4,27 +4,30 @@
 #include "tipo_dato.h"
 #include "operador.h"
 
-typedef struct datos {
+typedef struct {
   tipo_dato disc;
   int numero;
-  union info {
+  union {
     char par;
     bool va;
     operador op;
-  };
-};
+  } info;
+} datos;
 
 // Setter
 void setNumero(datos &data, int numero); // Función para automatizar el número consecutivo al anterior
+void setDiscriminante(datos &data, tipo_dato tipo);
 
 // Getter
 tipo_dato getTipo(datos data);
-bool getValor(datos data);
 char getParentesis(datos data);
+bool getValor(datos data);
 operador getOperador(datos data);
 
 // Funciones base
-void cargar(datos &data, string dato);
+void cargar(datos &data, char dato);
+void cargar(datos &data, bool dato);
+void cargar(datos &data, operador dato);
 void mostrar(datos data);
 
 #endif

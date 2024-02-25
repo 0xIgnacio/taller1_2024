@@ -69,24 +69,10 @@ include CMakeFiles/Taller1.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Taller1.dir/flags.make
 
-CMakeFiles/Taller1.dir/main.cpp.o: CMakeFiles/Taller1.dir/flags.make
-CMakeFiles/Taller1.dir/main.cpp.o: /Users/ignacioperciante/Developer/c-cpp/taller1_main/main.cpp
-CMakeFiles/Taller1.dir/main.cpp.o: CMakeFiles/Taller1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ignacioperciante/Developer/c-cpp/taller1_main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Taller1.dir/main.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Taller1.dir/main.cpp.o -MF CMakeFiles/Taller1.dir/main.cpp.o.d -o CMakeFiles/Taller1.dir/main.cpp.o -c /Users/ignacioperciante/Developer/c-cpp/taller1_main/main.cpp
-
-CMakeFiles/Taller1.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Taller1.dir/main.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ignacioperciante/Developer/c-cpp/taller1_main/main.cpp > CMakeFiles/Taller1.dir/main.cpp.i
-
-CMakeFiles/Taller1.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Taller1.dir/main.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ignacioperciante/Developer/c-cpp/taller1_main/main.cpp -o CMakeFiles/Taller1.dir/main.cpp.s
-
 CMakeFiles/Taller1.dir/abb_expresion.cpp.o: CMakeFiles/Taller1.dir/flags.make
 CMakeFiles/Taller1.dir/abb_expresion.cpp.o: /Users/ignacioperciante/Developer/c-cpp/taller1_main/abb_expresion.cpp
 CMakeFiles/Taller1.dir/abb_expresion.cpp.o: CMakeFiles/Taller1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ignacioperciante/Developer/c-cpp/taller1_main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Taller1.dir/abb_expresion.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ignacioperciante/Developer/c-cpp/taller1_main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Taller1.dir/abb_expresion.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Taller1.dir/abb_expresion.cpp.o -MF CMakeFiles/Taller1.dir/abb_expresion.cpp.o.d -o CMakeFiles/Taller1.dir/abb_expresion.cpp.o -c /Users/ignacioperciante/Developer/c-cpp/taller1_main/abb_expresion.cpp
 
 CMakeFiles/Taller1.dir/abb_expresion.cpp.i: cmake_force
@@ -100,7 +86,7 @@ CMakeFiles/Taller1.dir/abb_expresion.cpp.s: cmake_force
 CMakeFiles/Taller1.dir/boolean.cpp.o: CMakeFiles/Taller1.dir/flags.make
 CMakeFiles/Taller1.dir/boolean.cpp.o: /Users/ignacioperciante/Developer/c-cpp/taller1_main/boolean.cpp
 CMakeFiles/Taller1.dir/boolean.cpp.o: CMakeFiles/Taller1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ignacioperciante/Developer/c-cpp/taller1_main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Taller1.dir/boolean.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ignacioperciante/Developer/c-cpp/taller1_main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Taller1.dir/boolean.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Taller1.dir/boolean.cpp.o -MF CMakeFiles/Taller1.dir/boolean.cpp.o.d -o CMakeFiles/Taller1.dir/boolean.cpp.o -c /Users/ignacioperciante/Developer/c-cpp/taller1_main/boolean.cpp
 
 CMakeFiles/Taller1.dir/boolean.cpp.i: cmake_force
@@ -114,7 +100,7 @@ CMakeFiles/Taller1.dir/boolean.cpp.s: cmake_force
 CMakeFiles/Taller1.dir/datos_arbol.cpp.o: CMakeFiles/Taller1.dir/flags.make
 CMakeFiles/Taller1.dir/datos_arbol.cpp.o: /Users/ignacioperciante/Developer/c-cpp/taller1_main/datos_arbol.cpp
 CMakeFiles/Taller1.dir/datos_arbol.cpp.o: CMakeFiles/Taller1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ignacioperciante/Developer/c-cpp/taller1_main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Taller1.dir/datos_arbol.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ignacioperciante/Developer/c-cpp/taller1_main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Taller1.dir/datos_arbol.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Taller1.dir/datos_arbol.cpp.o -MF CMakeFiles/Taller1.dir/datos_arbol.cpp.o.d -o CMakeFiles/Taller1.dir/datos_arbol.cpp.o -c /Users/ignacioperciante/Developer/c-cpp/taller1_main/datos_arbol.cpp
 
 CMakeFiles/Taller1.dir/datos_arbol.cpp.i: cmake_force
@@ -128,7 +114,7 @@ CMakeFiles/Taller1.dir/datos_arbol.cpp.s: cmake_force
 CMakeFiles/Taller1.dir/expresion.cpp.o: CMakeFiles/Taller1.dir/flags.make
 CMakeFiles/Taller1.dir/expresion.cpp.o: /Users/ignacioperciante/Developer/c-cpp/taller1_main/expresion.cpp
 CMakeFiles/Taller1.dir/expresion.cpp.o: CMakeFiles/Taller1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ignacioperciante/Developer/c-cpp/taller1_main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Taller1.dir/expresion.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ignacioperciante/Developer/c-cpp/taller1_main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Taller1.dir/expresion.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Taller1.dir/expresion.cpp.o -MF CMakeFiles/Taller1.dir/expresion.cpp.o.d -o CMakeFiles/Taller1.dir/expresion.cpp.o -c /Users/ignacioperciante/Developer/c-cpp/taller1_main/expresion.cpp
 
 CMakeFiles/Taller1.dir/expresion.cpp.i: cmake_force
@@ -142,7 +128,7 @@ CMakeFiles/Taller1.dir/expresion.cpp.s: cmake_force
 CMakeFiles/Taller1.dir/lista_expresion.cpp.o: CMakeFiles/Taller1.dir/flags.make
 CMakeFiles/Taller1.dir/lista_expresion.cpp.o: /Users/ignacioperciante/Developer/c-cpp/taller1_main/lista_expresion.cpp
 CMakeFiles/Taller1.dir/lista_expresion.cpp.o: CMakeFiles/Taller1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ignacioperciante/Developer/c-cpp/taller1_main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Taller1.dir/lista_expresion.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ignacioperciante/Developer/c-cpp/taller1_main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Taller1.dir/lista_expresion.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Taller1.dir/lista_expresion.cpp.o -MF CMakeFiles/Taller1.dir/lista_expresion.cpp.o.d -o CMakeFiles/Taller1.dir/lista_expresion.cpp.o -c /Users/ignacioperciante/Developer/c-cpp/taller1_main/lista_expresion.cpp
 
 CMakeFiles/Taller1.dir/lista_expresion.cpp.i: cmake_force
@@ -156,7 +142,7 @@ CMakeFiles/Taller1.dir/lista_expresion.cpp.s: cmake_force
 CMakeFiles/Taller1.dir/lista_string.cpp.o: CMakeFiles/Taller1.dir/flags.make
 CMakeFiles/Taller1.dir/lista_string.cpp.o: /Users/ignacioperciante/Developer/c-cpp/taller1_main/lista_string.cpp
 CMakeFiles/Taller1.dir/lista_string.cpp.o: CMakeFiles/Taller1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ignacioperciante/Developer/c-cpp/taller1_main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Taller1.dir/lista_string.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ignacioperciante/Developer/c-cpp/taller1_main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Taller1.dir/lista_string.cpp.o"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Taller1.dir/lista_string.cpp.o -MF CMakeFiles/Taller1.dir/lista_string.cpp.o.d -o CMakeFiles/Taller1.dir/lista_string.cpp.o -c /Users/ignacioperciante/Developer/c-cpp/taller1_main/lista_string.cpp
 
 CMakeFiles/Taller1.dir/lista_string.cpp.i: cmake_force
@@ -166,6 +152,20 @@ CMakeFiles/Taller1.dir/lista_string.cpp.i: cmake_force
 CMakeFiles/Taller1.dir/lista_string.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Taller1.dir/lista_string.cpp.s"
 	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ignacioperciante/Developer/c-cpp/taller1_main/lista_string.cpp -o CMakeFiles/Taller1.dir/lista_string.cpp.s
+
+CMakeFiles/Taller1.dir/main.cpp.o: CMakeFiles/Taller1.dir/flags.make
+CMakeFiles/Taller1.dir/main.cpp.o: /Users/ignacioperciante/Developer/c-cpp/taller1_main/main.cpp
+CMakeFiles/Taller1.dir/main.cpp.o: CMakeFiles/Taller1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ignacioperciante/Developer/c-cpp/taller1_main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Taller1.dir/main.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Taller1.dir/main.cpp.o -MF CMakeFiles/Taller1.dir/main.cpp.o.d -o CMakeFiles/Taller1.dir/main.cpp.o -c /Users/ignacioperciante/Developer/c-cpp/taller1_main/main.cpp
+
+CMakeFiles/Taller1.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Taller1.dir/main.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ignacioperciante/Developer/c-cpp/taller1_main/main.cpp > CMakeFiles/Taller1.dir/main.cpp.i
+
+CMakeFiles/Taller1.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Taller1.dir/main.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ignacioperciante/Developer/c-cpp/taller1_main/main.cpp -o CMakeFiles/Taller1.dir/main.cpp.s
 
 CMakeFiles/Taller1.dir/menu.cpp.o: CMakeFiles/Taller1.dir/flags.make
 CMakeFiles/Taller1.dir/menu.cpp.o: /Users/ignacioperciante/Developer/c-cpp/taller1_main/menu.cpp
@@ -239,13 +239,13 @@ CMakeFiles/Taller1.dir/tipo_dato.cpp.s: cmake_force
 
 # Object files for target Taller1
 Taller1_OBJECTS = \
-"CMakeFiles/Taller1.dir/main.cpp.o" \
 "CMakeFiles/Taller1.dir/abb_expresion.cpp.o" \
 "CMakeFiles/Taller1.dir/boolean.cpp.o" \
 "CMakeFiles/Taller1.dir/datos_arbol.cpp.o" \
 "CMakeFiles/Taller1.dir/expresion.cpp.o" \
 "CMakeFiles/Taller1.dir/lista_expresion.cpp.o" \
 "CMakeFiles/Taller1.dir/lista_string.cpp.o" \
+"CMakeFiles/Taller1.dir/main.cpp.o" \
 "CMakeFiles/Taller1.dir/menu.cpp.o" \
 "CMakeFiles/Taller1.dir/operador.cpp.o" \
 "CMakeFiles/Taller1.dir/requerimiento.cpp.o" \
@@ -255,13 +255,13 @@ Taller1_OBJECTS = \
 # External object files for target Taller1
 Taller1_EXTERNAL_OBJECTS =
 
-Taller1: CMakeFiles/Taller1.dir/main.cpp.o
 Taller1: CMakeFiles/Taller1.dir/abb_expresion.cpp.o
 Taller1: CMakeFiles/Taller1.dir/boolean.cpp.o
 Taller1: CMakeFiles/Taller1.dir/datos_arbol.cpp.o
 Taller1: CMakeFiles/Taller1.dir/expresion.cpp.o
 Taller1: CMakeFiles/Taller1.dir/lista_expresion.cpp.o
 Taller1: CMakeFiles/Taller1.dir/lista_string.cpp.o
+Taller1: CMakeFiles/Taller1.dir/main.cpp.o
 Taller1: CMakeFiles/Taller1.dir/menu.cpp.o
 Taller1: CMakeFiles/Taller1.dir/operador.cpp.o
 Taller1: CMakeFiles/Taller1.dir/requerimiento.cpp.o

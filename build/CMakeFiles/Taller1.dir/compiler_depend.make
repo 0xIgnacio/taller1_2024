@@ -141,7 +141,10 @@ CMakeFiles/Taller1.dir/lista_expresion.cpp.o: /Users/ignacioperciante/Developer/
   /Users/ignacioperciante/Developer/c-cpp/taller1_main/headers/operador.h \
   /Users/ignacioperciante/Developer/c-cpp/taller1_main/headers/tipo_dato.h
 
-CMakeFiles/Taller1.dir/lista_string.cpp.o: /Users/ignacioperciante/Developer/c-cpp/taller1_main/lista_string.cpp
+CMakeFiles/Taller1.dir/lista_string.cpp.o: /Users/ignacioperciante/Developer/c-cpp/taller1_main/lista_string.cpp \
+  /Users/ignacioperciante/Developer/c-cpp/taller1_main/headers/boolean.h \
+  /Users/ignacioperciante/Developer/c-cpp/taller1_main/headers/lista_string.h \
+  /Users/ignacioperciante/Developer/c-cpp/taller1_main/headers/string.h
 
 CMakeFiles/Taller1.dir/main.cpp.o: /Users/ignacioperciante/Developer/c-cpp/taller1_main/main.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/Availability.h \
@@ -183,11 +186,13 @@ CMakeFiles/Taller1.dir/main.cpp.o: /Users/ignacioperciante/Developer/c-cpp/talle
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/stdio.h \
   /Users/ignacioperciante/Developer/c-cpp/taller1_main/headers/requerimiento.h \
   /Users/ignacioperciante/Developer/c-cpp/taller1_main/headers/abb_expresion.h \
+  /Users/ignacioperciante/Developer/c-cpp/taller1_main/headers/boolean.h \
   /Users/ignacioperciante/Developer/c-cpp/taller1_main/headers/datos_arbol.h \
   /Users/ignacioperciante/Developer/c-cpp/taller1_main/headers/expresion.h \
   /Users/ignacioperciante/Developer/c-cpp/taller1_main/headers/lista_expresion.h \
   /Users/ignacioperciante/Developer/c-cpp/taller1_main/headers/lista_string.h \
   /Users/ignacioperciante/Developer/c-cpp/taller1_main/headers/operador.h \
+  /Users/ignacioperciante/Developer/c-cpp/taller1_main/headers/string.h \
   /Users/ignacioperciante/Developer/c-cpp/taller1_main/headers/tipo_dato.h
 
 CMakeFiles/Taller1.dir/menu.cpp.o: /Users/ignacioperciante/Developer/c-cpp/taller1_main/menu.cpp
@@ -272,21 +277,21 @@ CMakeFiles/Taller1.dir/string.cpp.o: /Users/ignacioperciante/Developer/c-cpp/tal
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_va_list.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/cdefs.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/stdio.h \
-  /Users/ignacioperciante/Developer/c-cpp/taller1_main/headers/boolean.h \
-  /Users/ignacioperciante/Developer/c-cpp/taller1_main/headers/string.h
+  /Users/ignacioperciante/Developer/c-cpp/taller1_main/headers/string.h \
+  /Users/ignacioperciante/Developer/c-cpp/taller1_main/headers/boolean.h
 
 CMakeFiles/Taller1.dir/tipo_dato.cpp.o: /Users/ignacioperciante/Developer/c-cpp/taller1_main/tipo_dato.cpp
 
 
 /Users/ignacioperciante/Developer/c-cpp/taller1_main/tipo_dato.cpp:
 
-/Users/ignacioperciante/Developer/c-cpp/taller1_main/headers/string.h:
-
 /Users/ignacioperciante/Developer/c-cpp/taller1_main/menu.cpp:
 
-/Users/ignacioperciante/Developer/c-cpp/taller1_main/headers/lista_string.h:
-
 /Users/ignacioperciante/Developer/c-cpp/taller1_main/headers/requerimiento.h:
+
+/Users/ignacioperciante/Developer/c-cpp/taller1_main/headers/string.h:
+
+/Users/ignacioperciante/Developer/c-cpp/taller1_main/headers/lista_string.h:
 
 /Users/ignacioperciante/Developer/c-cpp/taller1_main/lista_string.cpp:
 

@@ -8,6 +8,8 @@ CMakeFiles/Taller1.dir/main.cpp.o: \
   /Users/ignacioperciante/Developer/c-cpp/taller1_main/headers/tipo_dato.h \
   /Users/ignacioperciante/Developer/c-cpp/taller1_main/headers/operador.h \
   /Users/ignacioperciante/Developer/c-cpp/taller1_main/headers/lista_string.h \
+  /Users/ignacioperciante/Developer/c-cpp/taller1_main/headers/string.h \
+  /Users/ignacioperciante/Developer/c-cpp/taller1_main/headers/boolean.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__config_site \

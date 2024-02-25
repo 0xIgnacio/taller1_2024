@@ -1,12 +1,6 @@
 [
 {
   "directory": "/Users/ignacioperciante/Developer/c-cpp/taller1_main/build",
-  "command": "/usr/bin/clang++  -I/Users/ignacioperciante/Developer/c-cpp/taller1_main/headers -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/Taller1.dir/main.cpp.o -c /Users/ignacioperciante/Developer/c-cpp/taller1_main/main.cpp",
-  "file": "/Users/ignacioperciante/Developer/c-cpp/taller1_main/main.cpp",
-  "output": "CMakeFiles/Taller1.dir/main.cpp.o"
-},
-{
-  "directory": "/Users/ignacioperciante/Developer/c-cpp/taller1_main/build",
   "command": "/usr/bin/clang++  -I/Users/ignacioperciante/Developer/c-cpp/taller1_main/headers -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/Taller1.dir/abb_expresion.cpp.o -c /Users/ignacioperciante/Developer/c-cpp/taller1_main/abb_expresion.cpp",
   "file": "/Users/ignacioperciante/Developer/c-cpp/taller1_main/abb_expresion.cpp",
   "output": "CMakeFiles/Taller1.dir/abb_expresion.cpp.o"
@@ -40,6 +34,12 @@
   "command": "/usr/bin/clang++  -I/Users/ignacioperciante/Developer/c-cpp/taller1_main/headers -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/Taller1.dir/lista_string.cpp.o -c /Users/ignacioperciante/Developer/c-cpp/taller1_main/lista_string.cpp",
   "file": "/Users/ignacioperciante/Developer/c-cpp/taller1_main/lista_string.cpp",
   "output": "CMakeFiles/Taller1.dir/lista_string.cpp.o"
+},
+{
+  "directory": "/Users/ignacioperciante/Developer/c-cpp/taller1_main/build",
+  "command": "/usr/bin/clang++  -I/Users/ignacioperciante/Developer/c-cpp/taller1_main/headers -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o CMakeFiles/Taller1.dir/main.cpp.o -c /Users/ignacioperciante/Developer/c-cpp/taller1_main/main.cpp",
+  "file": "/Users/ignacioperciante/Developer/c-cpp/taller1_main/main.cpp",
+  "output": "CMakeFiles/Taller1.dir/main.cpp.o"
 },
 {
   "directory": "/Users/ignacioperciante/Developer/c-cpp/taller1_main/build",

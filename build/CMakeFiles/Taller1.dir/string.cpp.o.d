@@ -37,5 +37,5 @@ CMakeFiles/Taller1.dir/string.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/_ctermid.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_off_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_ssize_t.h \
-  /Users/ignacioperciante/Developer/c-cpp/taller1_main/./headers/string.h \
+  /Users/ignacioperciante/Developer/c-cpp/taller1_main/headers/string.h \
   /Users/ignacioperciante/Developer/c-cpp/taller1_main/headers/boolean.h

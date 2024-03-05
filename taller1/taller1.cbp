@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="taller1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/taller1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/taller1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="arbol_expresiones.cpp" />
+		<Unit filename="arbol_expresiones.h" />
+		<Unit filename="boolean.cpp" />
+		<Unit filename="boolean.h" />
+		<Unit filename="expresion.cpp" />
+		<Unit filename="expresion.h" />
+		<Unit filename="info_arbol.cpp" />
+		<Unit filename="info_arbol.h" />
+		<Unit filename="lista_expresiones.cpp" />
+		<Unit filename="lista_expresiones.h" />
+		<Unit filename="lista_string.cpp" />
+		<Unit filename="lista_string.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="requerimiento.cpp" />
+		<Unit filename="requerimiento.h" />
+		<Unit filename="string.cpp" />
+		<Unit filename="string.h" />
+		<Unit filename="tipo_dato.cpp" />
+		<Unit filename="tipo_dato.h" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

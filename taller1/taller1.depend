@@ -1,0 +1,67 @@
+# depslib dependency file v1.0
+1584205420 source:c:\users\ignacioperciante\taller1\taller1_main\taller1\main.cpp
+	<iostream>
+
+1709316623 source:c:\users\ignacioperciante\taller1\taller1_main\taller1\tipo_dato.cpp
+
+1709317556 source:c:\users\ignacioperciante\taller1\taller1_main\taller1\boolean.cpp
+
+1709316481 source:c:\users\ignacioperciante\taller1\taller1_main\taller1\string.cpp
+	<stdio.h>
+	"string.h"
+
+1709316579 c:\users\ignacioperciante\taller1\taller1_main\taller1\string.h
+	<stdio.h>
+	"boolean.h"
+
+1709317586 c:\users\ignacioperciante\taller1\taller1_main\taller1\boolean.h
+
+1709317750 source:c:\users\ignacioperciante\taller1\taller1_main\taller1\lista_string.cpp
+	<stdio.h>
+	"lista_string.h"
+
+1709317132 c:\users\ignacioperciante\taller1\taller1_main\taller1\lista_string.h
+	"string.h"
+
+1709317789 source:c:\users\ignacioperciante\taller1\taller1_main\taller1\info_arbol.cpp
+	<stdio.h>
+	"info_arbol.h"
+
+1709317637 c:\users\ignacioperciante\taller1\taller1_main\taller1\info_arbol.h
+	<stdio.h>
+	"tipo_dato.h"
+	"string.h"
+
+1709316734 c:\users\ignacioperciante\taller1\taller1_main\taller1\tipo_dato.h
+
+1709318612 source:c:\users\ignacioperciante\taller1\taller1_main\taller1\arbol_expresiones.cpp
+	<stdio.h>
+	"arbol_expresiones.h"
+
+1709318448 c:\users\ignacioperciante\taller1\taller1_main\taller1\arbol_expresiones.h
+	<stdio.h>
+	"info_arbol.h"
+
+1709318883 source:c:\users\ignacioperciante\taller1\taller1_main\taller1\expresion.cpp
+	<stdio.h>
+	"expresion.h"
+
+1709318860 c:\users\ignacioperciante\taller1\taller1_main\taller1\expresion.h
+	<stdio.h>
+	"arbol_expresiones.h"
+
+1709324613 source:c:\users\ignacioperciante\taller1\taller1_main\taller1\lista_expresiones.cpp
+	<stdio.h>
+	"lista_expresiones.h"
+
+1709324334 c:\users\ignacioperciante\taller1\taller1_main\taller1\lista_expresiones.h
+	<stdio.h>
+	"expresion.h"
+
+1709325508 source:c:\users\ignacioperciante\taller1\taller1_main\taller1\requerimiento.cpp
+	"requerimiento.h"
+
+1709324955 c:\users\ignacioperciante\taller1\taller1_main\taller1\requerimiento.h
+	"lista_expresiones.h"
+	"lista_string.h"
+
